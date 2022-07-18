@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .main_div{
+        background: #00064d;
+    }
+    .span1 img{
+        position: absolute;
+        left: 46px;
+        top: 113px;
+        width: 15%;
+    }
+    .box1 .span1 b {
+    top: 33%;
+    right: 87%;
+    font-size: 10px;
+    transform: rotate(285deg);
+}
+   .box1 .span1 p {
+    margin: 0;
+    font-size: 20px;
+}
+    .box2 .span1 b {
+    position: absolute;
+    top: 31%;
+    right: 81%;
+    font-size: 10px;
+        transform: rotate(287deg);
+}
+    .box2 .span1 p {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+    .box1 .span1 {
+    clip-path: polygon(0 17%, 0 50%, 50% 50%);
+    background-color: #eb1301;
+}
+     .box2 .span1 {
+        clip-path: polygon(0 17%, 0 50%, 50% 50%);
+        background-color: #f1e7d2;
+         color: #e91200;
+}
+   .span2 img {
+    position: absolute;
+    left: 77px;
+    top: 65px;
+    width: 15%;
+    transform: rotate(313deg);
+}
+.box1 .span2 b {
+    position: absolute;
+    top: 14%;
+    right: 68%;
+    font-size: 15px;
+    transform: rotate(318deg);
+}
+    .box1 .span2 {
+    clip-path: polygon(0 17%, 30% 0, 50% 50%);
+    background-color: #f1e7d2;
+    color: #e91200;
+}
+ .box2 .span2 b {
+    position: absolute;
+    top: 14%;
+    right: 67%;
+    font-size: 15px;
+    transform: rotate(316deg);
+}
+    .box2 .span2 {
+    clip-path: polygon(0 17%, 30% 0, 50% 50%);
+    background-color: #eb1301;
+    color: #fff;
+}
+   .box1 .span4 img {
+    position: absolute;
+    width: 14%;
+    top: 63px;
+    left: 183px;
+    transform: rotate(40deg);
+}
+    .box1 .span4 b {
+        position: absolute;
+        top: 13%;
+        right: 16%;
+        font-size: 12px;
+        transform: rotate(41deg);
+        color: #eb1301;
+}
+    .box1 .span4 {
+    clip-path: polygon(71% 0, 100% 18%, 50% 50%);
+    background-color: #f1e7d2;
+    color: #eb1301;
+}
+    .box1 .span3 img {
+    position: absolute;
+    width: 14%;
+    top: 52px;
+    left: 131px;
+    transform: rotate(325deg);
+}
+    .box1 .span3 b {
+    position: absolute;
+    top: 6px;
+    right: 39%;
+    font-size: 12px;
+    transform: rotate(4deg);
+    color: #f1e7d2;
+    text-align: center;
+}
+    .box1 .span3 b p{
+        margin: 0;
+    }
+    .box1 .span3{
+        background: #eb1301;
+    }
+    .box2 .span3 {
+    background-color: #f1e7d2;
+}
+    .box2 .span3 b {
+    position: absolute;
+    top: 0%;
+    right: 40%;
+    font-size: 12px;
+    text-align: center;
+    color: #eb1301;
+    transform: rotate(2deg);
+}
+    .box2 .span3 b p{
+        margin: 0;
+    }
+    .span4 {
+    clip-path: polygon(65% 0, 100% 18%, 50% 50%);
+    background-color: salmon;
+}
+    .box2 .span4 img{
+            width: 15%;
+    position: absolute;
+    top: 54px;
+    left: 182px;
+    transform: rotate(45deg);
+    }
+    .box2 .span4 b {
+        position: absolute;
+        top: 13%;
+        right: 17%;
+        font-size: 12px;
+        transform: rotate(43deg);
+        color: #f1e7d2;
+}
+    .span4 {
+    clip-path: polygon(65% 0, 100% 18%, 50% 50%);
+    background-color: #eb1301;
+}
+  .box1 .span5 h3 {
+    position: absolute;
+    top: 77px;
+    left: 265px;
+    transform: rotate(64deg);
+    color: #f1e7d2;
+    font-size: 20px;
+    text-align: center;
+}
+   .box1 .span5 img {
+    position: absolute;
+    top: 104px;
+    left: 251px;
+    width: 9%;
+    transform: rotate(65deg);
+}
+    .box1 .span5 b {
+    position: absolute;
+    top: 39%;
+    right: 6%;
+    text-align: center;
+    font-size: 10px;
+            transform: rotate(63deg);
+        color: #f1e7d2;
+}
+    .box1 .span5 {
+    clip-path: polygon(100% 18%, 100% 50%, 50% 50%);
+    background: #eb1301;
+}
+    .box2 .span5 img{
+        position: absolute;
+        top: 100px;
+        left: 195px;
+        width: 20%;
+        transform: rotate(72deg);
+    }
+    .box2 .span5 b {
+    position: absolute;
+    top: 33%;
+    right: 0%;
+    text-align: center;
+    font-size: 12px;
+        transform: rotate(70deg);
+}
+    .box2 .span5 {
+    clip-path: polygon(100% 18%, 100% 50%, 50% 50%);
+    background: #f1e7d2;
+        color: #eb1301;
+}
+    .box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    overflow: hidden;
+    transition: all ease-in-out 5s;
+    transform: rotate(90deg);
+        /*border-image: url(round-ring.png) 30 stretch;*/
+}
+    /*loader*/
+   .loader {
+    position: relative;
+    width: 317px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(#e91200, #e91200, #f8d486);
+    animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader span {
+    position: absolute;
+    width: 317px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(#df4740, #fff500, #eb1301);
+    box-shadow: 2px 0px 7px #aba7a7;
+}
+
+.loader span:nth-child(1) {
+  filter: blur(5px);
+}
+
+.loader span:nth-child(2) {
+  filter: blur(10px);
+}
+
+.loader::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  background: #162434;
+  border-radius: 50%;
+}
+ .mainbox {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 49%;
+    left: 0;
+    right: 18px;
+    margin: 0 auto;
+    /* bottom: 133px; */
+    transform: translateY(-50%);
+} 
+   .main_div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+    .mainbox:after {
+    /*position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(./arrow-bottom.png) no-repeat;
+    background-size: 7%;
+    left: 4%;
+    top: 50%;
+    transform: rotate(90deg);*/
+        display: none;
+}
+    .arrow-div{
+        position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 114px;
+    }
+    .arrow-div img{
+        width: 9%;
+    }
+/*loader*/
+    
+    </style>
+<body>
+    <div class="main_div">
+        <div class="arrow-div">
+            <img src="arrow-bottom.png" class="img-fluid">
+        </div>
+        <div class="loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+        <div class="mainbox" id="mainbox">
+        <div class="box" id="box">
+            <div class="box1">
+                <span class="font span1"><img src="ruppee.png"><b><p>₹1</p> LAKH</b></span> 
+                <span class="font span2"><img src="iphone.png"><b>iPHONE</b></span>  
+                <span class="font span3"><img src="time.png"><b><p>OOPS!</p>MAY BE<br> NEXT TIME</b></span>
+                <span class="font span4"><img src="bike.png"><b>MOTOR<br> CYCLE</b></span>
+                <span class="font span5"><h3>10k</h3><img src="coins.png"><b> NEWOCOIN</b></span>
+          </div>
+          <div class="box2">
+            <span class="font span1"><img src="ruppee.png"><b><p>₹10</p> THOUSANDS</b></span>
+                <span class="font span2"><img src="samsung.png"><b>MOBILE</b></span
+            >
+            <span class="font span3"><b><p>OOPS!</p>MAY BE<br> NEXT TIME</b></span>
+                <span class="font span4"><img src="car.png"><b>CAR</b></span>
+                <span class="font span5"><img src="bangkok.png"><b>BANGKOK<br>3N-4D</b></span
+            >
+          </div>
+        </div>
+        <button class="spin" onclick="spin()">SPIN</button>
+      </div>
+    </div>
+      <audio
+      controls="controls"
+      id="applause"
+      src="./applause.mp3"
+      type="audio/mp3"
+    ></audio>
+    <audio
+      controls="controls"
+      id="wheel"
+      src="./wheel.mp3"
+      type="audio/mp3"
+    ></audio>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
